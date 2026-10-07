@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rubidium_frequency_reference"
+authors = [
+    { name = "Calvin Katt (RWTH Aachen University)", email = "calvin.katt@rwth-aachen.de" },
+]
+description = "UI for frequency adjustment of RUBIDIUM MODEL FE-5680A"
+readme = "Readme.md"
+requires-python = ">=3.8"
+keywords = []
+license = { text = "Apache License (2.0)" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: pache Software License",
+]
+dependencies = ["coloredlogs", "nicegui", "pyserial", "rpi-lgpio", "RsInstrument", "pyvisa-py", "temperusb", "tyro", "niceplotly-resampler"]
+version = "0.1"
+
+[tool.setuptools]
+packages = []
+

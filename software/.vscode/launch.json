@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Python Debugger: pps_sync",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "pps_sync.py",
+            "console": "integratedTerminal",
+            "args": [
+        "--name" , "rubi0",
+        "--serial_port", "/dev/ttyUSB0",
+        "--scope", "TCPIP::number42.acs-lab.eonerc.rwth-aachen.de::hislip0",
+        "--measurement", "MEASurement1:RESult:ACTual?",
+        "--p", "5e6",
+        "--i", "1e-5",
+        "--log_level", "DEBUG"]
+        }
+    ]
+}

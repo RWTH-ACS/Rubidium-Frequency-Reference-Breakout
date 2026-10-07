@@ -1,0 +1,13 @@
+log
+tmp
+.swp
+.venv
+__pycache__
+.env
+.venv
+build
+*.egg-info
+.nicegui
+*.csv
+backup
+data
